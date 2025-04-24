@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+  }
+  
+  .cta-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background: white;
+    color: #111;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .cta-button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Footer */
+  .footer {
+    background: #fff;
+    padding: 40px 20px 20px;
+    color: #333;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .footer-brand h3 {
+    color: #f44336;
+    margin: 0;
+  }
+  
+  .footer-brand p {
+    margin: 10px 0;
+    font-size: 0.95em;
+  }
+  
+  .footer-brand address {
+    font-style: normal;
+    font-size: 0.9em;
+  }
+  
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .footer-right p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .play-store-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .footer-bottom nav {
+    margin-bottom: 10px;
+  }
+  
+  .footer-bottom nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #777;
+    font-weight: 500;
+  }
+  
+  .footer-bottom nav a:hover {
+    text-decoration: underline;
+  }
+  
